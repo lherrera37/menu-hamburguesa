@@ -24,16 +24,16 @@
         color: #648CFF;
     }
     .section-menu-item{
-        width: 100%;/**/
+        width: 45%; /* Cambiado a 45% */
         height: calc(100vh - var(--height-menu));
         position: fixed;
         top: var(--height-menu);
-        left: 0;
+        right: 0; /* Cambiado para que el menú esté en la derecha */
         background-color: var(--color-white);
         display: flex;
         justify-content: center;
         align-items: center;
-        transform: translate(-100%,0);
+        transform: translate(100%, 0); /* Cambiado para que salga desde la derecha */
         transition: transform 0.3s ease;
     }
     .panel-btn{
@@ -66,7 +66,7 @@
         background-color: #000000;
     }
     .menu-active{
-        transform: translate(0,0);
+        transform: translate(0, 0); /* Abre el menú */
     }
     .section-menu-item ul{
         display: block;
@@ -110,16 +110,16 @@
         color: #648CFF;
     }
     .section-menu-item{
-        width: 100%;/**/
+        width: 45%; /* Cambiado a 45% */
         height: calc(100vh - var(--height-menu));
         position: fixed;
         top: var(--height-menu);
-        left: 0;
+        right: 0; /* Cambiado para que el menú esté en la derecha */
         background-color: var(--color-white);
         display: flex;
         justify-content: center;
         align-items: center;
-        transform: translate(-100%,0);
+        transform: translate(100%, 0); /* Cambiado para que salga desde la derecha */
         transition: transform 0.3s ease;
     }
     .panel-btn{
@@ -152,7 +152,7 @@
         background-color: #000000;
     }
     .menu-active{
-        transform: translate(0,0);
+        transform: translate(0, 0); /* Abre el menú */
     }
     .section-menu-item ul{
         display: block;/**/
@@ -169,16 +169,4 @@
     .section-social-media{
         display: none;
     }
-}
-
-/*lg*/
-@media (min-width: 721px) and (max-width: 1000px){
-    .section-social-media{
-        display: none;
-    }
-}
-
-/*xl*/
-@media screen and (min-width:1200px){
-    
 }
